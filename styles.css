@@ -16,32 +16,53 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
-
-}
-
-.a {
-
-}
-
-.s {
-
-}
-
-.d {
-
-}
-
 .j {
-
+background-image:url("./images/crash.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
 }
 
 .k {
-
+background-image:url("./images/kick.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
 }
 
 .l {
+background-image:url("./images/snare.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
+}
 
+.w {
+background-image:url("./images/tom1.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
+}
+
+.a {
+background-image:url("./images/tom2.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
+}
+
+.s {
+background-image:url("./images/tom3.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
+}
+
+.d {
+background-image:url("./images/tom4.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px 100px;
 }
 
 .set {

@@ -2,7 +2,9 @@ var drumButton = document.querySelectorAll(".drum");
 
 for (let i = 0; i < drumButton.length; i++) {
   drumButton[i].addEventListener("click", function () {
-    switch (this.innerHtml) {
+    
+    var keybtn = this.innerHTML;
+    switch (keybtn) {
       case "w":
         var tom1 = new Audio("./sounds/tom-1.mp3");
         tom1.play();
@@ -33,7 +35,7 @@ for (let i = 0; i < drumButton.length; i++) {
         break;
 
       default:
-        console.log(this.innerHtml);
+        console.log(keybtn);
         break;
     }
   });
